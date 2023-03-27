@@ -1,6 +1,6 @@
 @media screen and (min-width: 720px)  {
     body,html{
-        background-color: #778da9;
+        background-color: #e9ecef;
         margin: 0;
         padding: 0;
     }
@@ -8,6 +8,21 @@
         margin: 0;
         padding: 0;
         width: 100%;
+    }
+    #languageButton{
+        width: 50px;
+        border-radius: 100%;
+        background-color: mediumseagreen;
+        border: none;
+        position:fixed;
+        top: 0;
+        right: 0;
+    }
+    #languageButton img{
+
+        width: 50px;
+        background-color: transparent;
+        border-radius: 10px;
     }
     .about-wrapper{
         background-color: #778da9;
@@ -107,6 +122,18 @@
         flex-direction:column;
         align-items:center;
     }
+    .translation-2{
+        margin: 0;
+        border-radius: 0;
+        height: 100vh;
+        margin-bottom: 1px;
+        text-align: center;
+        background-color: #e9ecef;
+        display: flex;
+        flex: 1;
+        flex-direction:column;
+        align-items:center;
+    }
     .videos{
         margin: 0;
         border-radius: 0;
@@ -122,18 +149,15 @@
 
     .job-content {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         justify-items: center;
         row-gap: 20px;
     }
 
     .video-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
-        justify-items: center;
-        row-gap: 5px;
-
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
     }
 
     .video-container h2{
@@ -163,6 +187,10 @@
         padding:5px;
         margin: 5px;
         width: 200px;
+    }
+    #back-to-top-btn{
+        position: fixed;
+        bottom: 0;
     }
 
 }
@@ -185,7 +213,7 @@
 
     .video-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
         justify-items: center;
         row-gap: 5px;
@@ -196,9 +224,10 @@
     }
     .video-container h2{
         margin: 5px;
+        font-size: small;
     }
     .video-container video {
-        display: none;
+        display: block;
     }
 
     .job-content h2 {
@@ -210,17 +239,58 @@
 
     }
     video{
-        width: 200px;
+        width: 100px;
         transition: 2s;
         margin: 5px;
         border-radius: 5px;
         outline: #5e548e solid 2px;
+    }
+    .video-player {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .video-player video {
+        width: 50px;
+        height: 100%;
+        object-fit: cover;
     }
 
     .video-player h2{
         padding:5px;
         margin: 5px;
         width: 100px;
+    }
+    #languageButton{
+        width: 50px;
+        border-radius: 100%;
+        background-color: transparent;
+        border: none;
+        position:fixed;
+        top: 0;
+        right: 0;
+    }
+    #languageButton img{
+
+        width: 50px;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+    #back-to-top-btn{
+        position: fixed;
+        bottom: 0;
+        background-color: transparent;
+        border: none;
+    }
+    #back-to-top-btn img{
+        width: 30px;
+        background-color: transparent;
+
+    }
+    #back-to-top-btn img{
+        position: fixed;
+        bottom: 0;
     }
 
 /*jjj*/
