@@ -171,7 +171,7 @@
 @media screen and (max-width: 400px){
 
     .about-wrapper, .knn, .get-wise, .translation,.pti{
-        height: 50vh;
+        height: 100vh;
     }
 
 
