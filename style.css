@@ -49,6 +49,9 @@ footer img{
 
 .about-image{
     border-radius: 25px;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    
 
     margin-bottom: 10px;
     background-color: #ecf0f0;
