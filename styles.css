@@ -24,7 +24,7 @@
         background-color: transparent;
         border-radius: 10px;
     }
-    .about-wrapper{
+    #about-wrapper{
         background-color: #778da9;
         display: flex;
         flex: 1;
@@ -43,7 +43,7 @@
         box-shadow: 9px 15px 26px -14px rgba(0,0,0,0.75);
 
     }
-    .contact-links{
+    #contact-links{
         background-color: #cfdbd5;
         -webkit-box-shadow: 9px 15px 26px -14px rgba(0,0,0,0.75);
         -moz-box-shadow: 9px 15px 26px -14px rgba(0,0,0,0.75);
@@ -197,7 +197,7 @@
 
 @media screen and (max-width: 400px){
 
-    .about-wrapper, #knn, #get-wise,#translation,#pti{
+    #about-wrapper, #knn, #get-wise,#translation,#pti{
         height: 100vh;
     }
 
@@ -218,7 +218,7 @@
         row-gap: 5px;
 
     }
-    .contact-links img{
+    #contact-links img{
         width:20px;
     }
    #video-container h2{
