@@ -1,4 +1,4 @@
-@media screen and (min-width: 720px)  {
+@media screen and (max-width: 496px)  {
     body,html{
         background-color: #e9ecef;
         margin: 0;
@@ -53,7 +53,7 @@
     
     .job-content{
         text-align: justify;
-        width: 500px;
+        width: fit-content;
         background-color: black;
         color: white;
         padding: 30px;
@@ -201,8 +201,8 @@
         height: 100vh;
     }
 
+}
 
-    }
     .job-content {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -293,7 +293,7 @@
         bottom: 0;
     }
     embed {
-        outline: #9f86c0 2px solid;
+        outline: #000000 2px solid;
         width: 100%;
 
     }
